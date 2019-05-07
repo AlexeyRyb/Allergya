@@ -16,6 +16,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".alarmActivity"
+            android:label="alarmActivity"
+            android:theme="@style/AppTheme">
+            <intent-filter>
+                <action android:name=".alarmActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>
