@@ -1,6 +1,8 @@
 package com.example.allergy;
 
 
+import android.content.Intent;
+import android.net.Uri;
 import android.support.v4.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.design.widget.NavigationView;
@@ -67,9 +69,6 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
-        }
 
         return super.onOptionsItemSelected(item);
     }
@@ -92,6 +91,10 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_papers) {
             fragment = PapersFragment.newInstance("[eq", "cjcb");
 
+        } else if (id == R.id.maps) {
+            Uri address = Uri.parse("https://yandex.ru/pogoda/saint-petersburg/maps/pollen");
+            Intent openLinkIntent = new Intent(Intent.ACTION_VIEW, address);
+            startActivity(openLinkIntent);
         }
 
         if (fragment != null) {

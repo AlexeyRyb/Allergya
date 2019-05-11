@@ -20,6 +20,9 @@
             android:id="@+id/nav_papers"
             android:icon="@drawable/ic_menu_manage"
             android:title="Статьи" />
+        <item
+            android:id="@+id/maps"
+            android:title="Карта пыльцы" />
     </group>
 
 </menu>
