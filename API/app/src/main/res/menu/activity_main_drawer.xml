@@ -9,30 +9,17 @@
             android:icon="@android:drawable/ic_dialog_map"
             android:title="Домашняя страница" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_allergen"
             android:icon="@android:drawable/ic_menu_myplaces"
-            android:title="Профиль" />
+            android:title="Аллергены" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_pills"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Статьи (131 included)" />
+            android:title="Препараты" />
         <item
-            android:id="@+id/nav_tools"
+            android:id="@+id/nav_papers"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Миша обещал придумать" />
+            android:title="Статьи" />
     </group>
-
-    <item android:title="Communicate">
-        <menu>
-            <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="@string/menu_share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="@string/menu_send" />
-        </menu>
-    </item>
 
 </menu>

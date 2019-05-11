@@ -84,16 +84,13 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_home) {
             fragment = HomeFragment.newInstance("blabla", "blablabla");
-        } else if (id == R.id.nav_gallery) {
-            fragment = ProfileFragment.newInstance("blabla", "blablabla");
-        } else if (id == R.id.nav_slideshow) {
+        } else if (id == R.id.nav_allergen) {
+            fragment = PillsFragment.newInstance("blabla", "blablabla");
+        } else if (id == R.id.nav_pills) {
+
+
+        } else if (id == R.id.nav_papers) {
             fragment = PapersFragment.newInstance("[eq", "cjcb");
-
-        } else if (id == R.id.nav_tools) {
-
-        } else if (id == R.id.nav_share) {
-
-        } else if (id == R.id.nav_send) {
 
         }
 
