@@ -83,11 +83,11 @@ public class MainActivity extends AppCompatActivity
         Fragment fragment = null;
 
         if (id == R.id.nav_home) {
-            // Handle the camera action
+            fragment = HomeFragment.newInstance("blabla", "blablabla");
         } else if (id == R.id.nav_gallery) {
             fragment = ProfileFragment.newInstance("blabla", "blablabla");
-
         } else if (id == R.id.nav_slideshow) {
+            fragment = PapersFragment.newInstance("[eq", "cjcb");
 
         } else if (id == R.id.nav_tools) {
 
