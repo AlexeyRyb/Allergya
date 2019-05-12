@@ -98,6 +98,8 @@ public class MainActivity extends AppCompatActivity
             Uri address = Uri.parse("https://yandex.ru/pogoda/saint-petersburg/maps/pollen");
             Intent openLinkIntent = new Intent(Intent.ACTION_VIEW, address);
             startActivity(openLinkIntent);
+        } else if (id == R.id.alarmFragment) {
+            fragment = AlarmActivity.newInstance("kek", "lol");
         }
 
         if (fragment != null) {

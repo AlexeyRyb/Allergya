@@ -24,6 +24,10 @@
             android:id="@+id/maps"
             android:icon="@android:drawable/ic_dialog_map"
             android:title="Карта пыльцы" />
+        <item
+            android:id="@+id/alarmFragment"
+            android:icon="@android:drawable/ic_notification_overlay"
+            android:title="ТРЕВОЖНАЯ КНОПКА" />
     </group>
 
 </menu>
