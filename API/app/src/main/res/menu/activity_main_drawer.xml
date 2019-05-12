@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Домашняя страница" />
+        <item
+            android:id="@+id/nav_allergen"
+            android:icon="@android:drawable/ic_dialog_alert"
+            android:title="Аллергены" />
+        <item
+            android:id="@+id/nav_pills"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="Препараты" />
+        <item
+            android:id="@+id/nav_papers"
+            android:icon="@android:drawable/ic_menu_edit"
+            android:title="Статьи" />
+        <item
+            android:id="@+id/maps"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="Карта пыльцы" />
+        <item
+            android:id="@+id/alarmFragment"
+            android:icon="@android:drawable/ic_notification_overlay"
+            android:title="ТРЕВОЖНАЯ КНОПКА" />
+    </group>
+
+</menu>

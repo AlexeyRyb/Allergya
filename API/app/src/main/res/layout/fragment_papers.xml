@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PapersFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/paper1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:background="@drawable/textview_border"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:text="Полезно знать о пыльцевой аллергии"
+                android:textColor="#000000"
+                android:textColorHint="#000C0C0C"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/paper2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:background="@drawable/textview_border"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:text="Сезонная аллергия: есть ли спасение?"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/paper3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:background="@drawable/textview_border"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:text="Как пережить весну: 20 полезных советов при аллергии"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+
+            <TextView
+                android:id="@+id/paper4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:autoLink="web"
+                android:background="@drawable/textview_border"
+                android:clickable="true"
+                android:linksClickable="true"
+                android:text="Радикальное лечение аллергии: аллергенспецифическая иммунотерапия (АСИТ)"
+                android:textColor="#000000"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>
