@@ -10,18 +10,19 @@
             android:title="Домашняя страница" />
         <item
             android:id="@+id/nav_allergen"
-            android:icon="@android:drawable/ic_menu_myplaces"
+            android:icon="@android:drawable/ic_dialog_alert"
             android:title="Аллергены" />
         <item
             android:id="@+id/nav_pills"
-            android:icon="@drawable/ic_menu_slideshow"
+            android:icon="@android:drawable/ic_menu_add"
             android:title="Препараты" />
         <item
             android:id="@+id/nav_papers"
-            android:icon="@drawable/ic_menu_manage"
+            android:icon="@android:drawable/ic_menu_edit"
             android:title="Статьи" />
         <item
             android:id="@+id/maps"
+            android:icon="@android:drawable/ic_dialog_map"
             android:title="Карта пыльцы" />
     </group>
 
