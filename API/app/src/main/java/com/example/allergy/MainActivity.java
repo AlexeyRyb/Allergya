@@ -42,6 +42,9 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
         navigationView.setNavigationItemSelectedListener(this);
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        Fragment fragment = HomeFragment.newInstance();
+        transaction.replace(R.id.content_frame, fragment).commit();
     }
 
     @Override
@@ -82,7 +85,7 @@ public class MainActivity extends AppCompatActivity
         Fragment fragment = null;
 
         if (id == R.id.nav_home) {
-            fragment = HomeFragment.newInstance("blabla", "blablabla");
+            fragment = HomeFragment.newInstance();
         } else if (id == R.id.nav_allergen) {
             fragment = PillsFragment.newInstance("blabla", "blablabla");
         } else if (id == R.id.nav_pills) {
