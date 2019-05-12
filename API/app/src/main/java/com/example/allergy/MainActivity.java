@@ -84,9 +84,8 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_home) {
             fragment = HomeFragment.newInstance("blabla", "blablabla");
         } else if (id == R.id.nav_allergen) {
-            fragment = PillsFragment.newInstance("blabla", "blablabla");
+            fragment = AllergenFragment.newInstance("kfoa", "fkap");
         } else if (id == R.id.nav_pills) {
-
 
         } else if (id == R.id.nav_papers) {
             fragment = PapersFragment.newInstance("[eq", "cjcb");
